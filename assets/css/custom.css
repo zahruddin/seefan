@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+  #intro {
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+  }
+
+  #intro .inner {
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  #intro h1 {
+    font-size: 2rem;
+  }
+
+  #intro p {
+    font-size: 1rem;
+  }
+
+  #intro .actions {
+    justify-content: center;
+  }
+}
